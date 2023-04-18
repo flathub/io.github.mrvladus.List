@@ -16,5 +16,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/mrvladus/List.git
-        tag: v44.2
-        commit: 1ea26f9672a497da2d83a0ae47db281c26112ebe
+        tag: v44.2.1
+        commit: 5a67db9e1e9605eee59f0ba120af0127fc78999d
