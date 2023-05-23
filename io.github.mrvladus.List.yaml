@@ -10,11 +10,9 @@ finish-args:
   - --socket=wayland
 modules:
   - name: list
-    buildsystem: simple
-    build-commands:
-      - make install
+    buildsystem: meson
     sources:
       - type: git
         url: https://github.com/mrvladus/List.git
-        tag: v44.4.3
-        commit: b3756315d39b23cc4a9c0a045582e7fcd9cb197e
+        tag: v44.5
+        commit: 8a3a9408c01a0ce3971bc3b2a2e1b85822c171fa
