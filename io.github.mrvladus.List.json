@@ -19,8 +19,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/mrvladus/List.git",
-                    "tag": "44.6.7",
-                    "commit": "e244fcd18078ae73b65acd5aa311689959996ecb"
+                    "tag": "44.6.8",
+                    "commit": "1fbd11af484903dae02ba1df0d12effc84fb95c7"
                 }
             ]
         }
