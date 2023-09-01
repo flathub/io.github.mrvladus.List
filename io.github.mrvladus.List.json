@@ -3,7 +3,7 @@
     "runtime": "org.gnome.Platform",
     "runtime-version": "44",
     "sdk": "org.gnome.Sdk",
-    "command": "list",
+    "command": "errands",
     "finish-args": [
         "--share=ipc",
         "--socket=fallback-x11",
@@ -13,14 +13,14 @@
     ],
     "modules": [
         {
-            "name": "list",
+            "name": "errands",
             "buildsystem": "meson",
             "sources": [
                 {
                     "type": "git",
                     "url": "https://github.com/mrvladus/List.git",
-                    "tag": "44.6.8",
-                    "commit": "1fbd11af484903dae02ba1df0d12effc84fb95c7"
+                    "tag": "44.7",
+                    "commit": "932aa7fc53ce58156f688f7d85a4a36311e00736"
                 }
             ]
         }
