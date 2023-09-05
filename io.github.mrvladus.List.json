@@ -18,9 +18,9 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://github.com/mrvladus/List.git",
-                    "tag": "44.7",
-                    "commit": "932aa7fc53ce58156f688f7d85a4a36311e00736"
+                    "url": "https://github.com/mrvladus/Errands.git",
+                    "tag": "44.7.1",
+                    "commit": "81cba1da021acab1106da361a90c8b17487cff24"
                 }
             ]
         }
