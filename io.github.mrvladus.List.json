@@ -11,9 +11,6 @@
         "--share=ipc",
         "--share=network"
     ],
-    "cleanup": [
-        "/lib/debug"
-    ],
     "modules": [
         "python3-modules.json",
         {
