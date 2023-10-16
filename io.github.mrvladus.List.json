@@ -1,16 +1,18 @@
 {
     "app-id": "io.github.mrvladus.List",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "44",
+    "runtime-version": "45",
     "sdk": "org.gnome.Sdk",
     "command": "errands",
     "finish-args": [
-        "--share=ipc",
-        "--socket=fallback-x11",
         "--device=dri",
-        "--socket=wayland"
+        "--socket=wayland",
+        "--socket=fallback-x11",
+        "--share=ipc",
+        "--share=network"
     ],
     "modules": [
+        "python3-modules.json",
         {
             "name": "errands",
             "buildsystem": "meson",
@@ -18,8 +20,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/mrvladus/Errands.git",
-                    "tag": "44.7.6",
-                    "commit": "2bfc960204231c9a862603b4d92623a223e1bb3a"
+                    "tag": "45.0",
+                    "commit": "9955ea34f26181103dd85d6a2771d44afeee0e13"
                 }
             ]
         }
