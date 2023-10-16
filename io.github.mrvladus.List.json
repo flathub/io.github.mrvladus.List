@@ -15,7 +15,7 @@
         "/lib/debug"
     ],
     "modules": [
-        "build-aux/python3-modules.json",
+        "python3-modules.json",
         {
             "name": "errands",
             "buildsystem": "meson",
