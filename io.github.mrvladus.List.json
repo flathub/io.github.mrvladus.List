@@ -20,8 +20,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/mrvladus/Errands.git",
-                    "tag": "45.0.3",
-                    "commit": "67e5ebce6b2c0358277288eea48c71a248fc89e8"
+                    "tag": "45.0.4",
+                    "commit": "dd1bbeac1f63de11bc425f7d8434243dade7b2ef"
                 }
             ]
         }
