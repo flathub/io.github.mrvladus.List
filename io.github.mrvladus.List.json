@@ -14,7 +14,6 @@
         "--talk-name=org.gnome.OnlineAccounts"
     ],
     "cleanup": [
-        "/lib/debug",
         "/include",
         "/lib/pkgconfig",
         "/man",
@@ -44,7 +43,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/gnome-online-accounts.git",
-                    "branch": "master"
+                    "tag": "3.49.0"
                 }
             ]
         },
@@ -56,8 +55,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/mrvladus/Errands.git",
-                    "tag": "45.1.5",
-                    "commit": "91c17de64fe6b9ecbe10ac53db83b650fc02cd5d"
+                    "tag": "45.1.6",
+                    "commit": "d346877886114cf64dc96cf9f754616e20a21987"
                 }
             ]
         }
