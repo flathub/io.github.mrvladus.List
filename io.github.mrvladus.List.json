@@ -10,9 +10,43 @@
         "--socket=fallback-x11",
         "--share=ipc",
         "--share=network",
-        "--talk-name=org.freedesktop.secrets"
+        "--talk-name=org.freedesktop.secrets",
+        "--talk-name=org.gnome.OnlineAccounts"
+    ],
+    "cleanup": [
+        "/include",
+        "/lib/pkgconfig",
+        "/man",
+        "/share/aclocal",
+        "/share/gtk-doc",
+        "/share/man",
+        "/share/pkgconfig",
+        "/share/vala",
+        "*.la",
+        "*.a"
     ],
     "modules": [
+        {
+            "name": "gnome-online-accounts",
+            "buildsystem": "meson",
+            "config-opts": [
+                "-Dgoabackend=false",
+                "-Dexchange=false",
+                "-Dgoogle=false",
+                "-Dimap_smtp=false",
+                "-Dwebdav=false",
+                "-Dkerberos=false",
+                "-Dwindows_live=false",
+                "-Dvapi=false"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://gitlab.gnome.org/GNOME/gnome-online-accounts.git",
+                    "tag": "3.49.0"
+                }
+            ]
+        },
         "python3-modules.json",
         {
             "name": "errands",
@@ -21,8 +55,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/mrvladus/Errands.git",
-                    "tag": "45.1.5",
-                    "commit": "91c17de64fe6b9ecbe10ac53db83b650fc02cd5d"
+                    "commit": "d0ab65dadc2e03b44055c326584df458b2a6c62a"
                 }
             ]
         }
