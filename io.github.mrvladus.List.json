@@ -45,7 +45,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/gnome-online-accounts.git",
-                    "branch": "master"
+                    "tag": "3.50.1"
                 }
             ]
         },
