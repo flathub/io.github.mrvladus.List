@@ -65,7 +65,7 @@
                 }
             ]
         },
-        "python3-modules.json",
+        "python3-caldav.json",
         {
             "name": "errands",
             "buildsystem": "meson",
@@ -73,7 +73,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/mrvladus/Errands.git",
-                    "tag": "46.0.4"
+                    "tag": "46.0.5"
                 }
             ]
         }
