@@ -11,7 +11,8 @@
         "--share=ipc",
         "--share=network",
         "--talk-name=org.freedesktop.secrets",
-        "--talk-name=org.gnome.OnlineAccounts"
+        "--talk-name=org.gnome.OnlineAccounts",
+        "--filesystem=home"
     ],
     "cleanup": [
         "/include",
