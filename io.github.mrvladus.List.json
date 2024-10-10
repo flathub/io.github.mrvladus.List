@@ -1,7 +1,7 @@
 {
     "id": "io.github.mrvladus.List",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "46",
+    "runtime-version": "47",
     "sdk": "org.gnome.Sdk",
     "command": "errands",
     "finish-args": [
@@ -74,7 +74,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/mrvladus/Errands.git",
-                    "tag": "46.2.5"
+                    "tag": "46.2.6"
                 }
             ]
         }
