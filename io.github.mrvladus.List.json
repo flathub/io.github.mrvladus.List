@@ -1,7 +1,7 @@
 {
     "id": "io.github.mrvladus.List",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "47",
+    "runtime-version": "49",
     "sdk": "org.gnome.Sdk",
     "command": "errands",
     "finish-args": [
@@ -26,29 +26,7 @@
         "*.la",
         "*.a"
     ],
-    "modules": [
-        {
-            "name": "gnome-online-accounts",
-            "buildsystem": "meson",
-            "config-opts": [
-                "-Dgoabackend=false",
-                "-Dexchange=false",
-                "-Dgoogle=false",
-                "-Dimap_smtp=false",
-                "-Dwebdav=false",
-                "-Dkerberos=false",
-                "-Dwindows_live=false",
-                "-Dms_graph=false",
-                "-Dvapi=false"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://gitlab.gnome.org/GNOME/gnome-online-accounts.git",
-                    "tag": "3.50.1"
-                }
-            ]
-        },
+    "modules": [   
         {
             "name": "libportal",
             "buildsystem": "meson",
@@ -62,7 +40,28 @@
                 {
                     "type": "git",
                     "url": "https://github.com/flatpak/libportal.git",
-                    "tag": "0.7.1"
+                    "tag": "0.9.1"
+                }
+            ]
+        },
+        {
+            "name": "gnome-online-accounts",
+            "buildsystem": "meson",
+            "config-opts": [
+                "-Dgoabackend=false",
+                "-Dexchange=false",
+                "-Dgoogle=false",
+                "-Dimap_smtp=false",
+                "-Dwebdav=false",
+                "-Dkerberos=false",
+                "-Dms_graph=false",
+                "-Dvapi=false"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://gitlab.gnome.org/GNOME/gnome-online-accounts.git",
+                    "tag": "master"
                 }
             ]
         },
@@ -74,7 +73,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/mrvladus/Errands.git",
-                    "commit": "60b3a8c243e1903d18809651937fcfac9e0f9582"
+                    "tag": "46.2.9"
                 }
             ]
         }
