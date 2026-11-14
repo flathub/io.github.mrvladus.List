@@ -117,7 +117,7 @@
         {
           "type": "git",
           "url": "https://github.com/mrvladus/Errands.git",
-          "commit": "90ea9e8764e84b04014b60a13f1b07a9a74e643f"
+          "tag": "51.1.1"
         }
       ]
     }
